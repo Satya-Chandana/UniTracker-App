@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_ract00"
+    android:backgroundTint="@color/white1"
+    android:padding="@dimen/margin1"
+    android:layout_marginBottom="@dimen/margin"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/margin1">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font1"
+            android:includeFontPadding="false"
+            android:text="Noti title will be here"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_lg" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="@dimen/sizesm1"
+            android:fontFamily="@font/font1"
+            android:includeFontPadding="false"
+            android:text="12-12-2023, 04:00 AM"
+            android:textColor="@color/dgry"
+            android:textSize="@dimen/txt_size_md1" />
+
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt2"
+            android:layout_marginTop="@dimen/sizesm"
+            android:fontFamily="@font/font1"
+            android:includeFontPadding="false"
+            android:text="Lorem ipsome is the dummy content hai bhia jdfnj"
+            android:textColor="@color/dgry"
+            android:textSize="@dimen/txt_size_md1" />
+
+    </RelativeLayout>
+</RelativeLayout>

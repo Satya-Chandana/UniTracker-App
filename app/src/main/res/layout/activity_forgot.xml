@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/margin"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tool"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/round_ract00"
+        android:backgroundTint="@color/white"
+        android:padding="@dimen/margin1">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size6"
+            android:layout_below="@id/email_rl"
+            android:layout_marginTop="@dimen/margin_xxxlg"
+            android:layout_marginBottom="@dimen/margin1"
+            android:background="@drawable/round_ract1"
+            android:backgroundTint="@color/app_color"
+            android:fontFamily="@font/font2"
+            android:includeFontPadding="false"
+            android:onClick="LoginNow"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_lg" />
+
+
+        <RelativeLayout
+            android:id="@+id/txt2"
+            android:layout_width="@dimen/size62"
+            android:layout_height="@dimen/sizesm1"
+            android:layout_below="@id/txt10"
+            android:layout_marginTop="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin_xlg"
+            android:background="@drawable/round_ract0"
+            android:backgroundTint="@color/app_color"
+
+            />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_md"
+            android:fontFamily="@font/font3"
+            android:includeFontPadding="false"
+
+            android:text="@string/forgot_pass"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_xxlg"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="@dimen/margin"
+            android:fontFamily="@font/font3"
+            android:includeFontPadding="false"
+
+            android:text="@string/forgot_msg"
+            android:textColor="@color/dgry"
+            android:textSize="@dimen/txt_size_md1" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt2"
+            android:layout_marginTop="@dimen/margin_xxxlg"
+            android:hint="@string/email1"
+            android:textColorHint="@color/dgry">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font1"
+                android:includeFontPadding="false"
+                android:inputType="textEmailAddress"
+                android:lineSpacingExtra="@dimen/sizesm1"
+                android:textColor="@color/dgry1"
+                android:textSize="@dimen/txt_size_md1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/my_tool" />
+</RelativeLayout>

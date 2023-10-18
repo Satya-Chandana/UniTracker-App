@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="txtRobotoromansemibold16_1">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylecyan_2">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+
+    <style name="txtRobotoromansemibold16_2">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/app_color</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylecyan_3">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoromansemibold20">
+        <item name="android:textSize">@dimen/txt_size_lg</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtRobotoromanmedium14">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylelight_blue_600cornerRadius">
+        <item name="android:background">@drawable/round_ract1</item>
+    </style>
+    <style name="txtRobotoromanmedium16">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/app_color</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="btnSolidRounded_4">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/round_ract1</item>
+    </style>
+    <style name="btnSolidRounded_3">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="btnSolidRounded_2">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="btnSolidRounded_1">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="groupStylecyan_1">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="groupStylegray_100cornerRadius">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="btnSolidRounded_5">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="groupStylecyan_900">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoromanmedium22">
+        <item name="android:textSize">@dimen/txt_size_lg</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRobotoromanmedium14_3">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRobotoromanmedium12_3">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/app_color</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRobotoromanmedium14_1">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRobotoromansemibold16">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/app_color</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtRobotoromanmedium14_2">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRobotoromanmedium12_1">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylewhite">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoromanmedium12_2">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="btnSolidRounded">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoromanmedium26">
+        <item name="android:textSize">@dimen/txt_size_lg</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRobotoromanregular12">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylecyan_900cornerRadius">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoromanregular14">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhite_1">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoromanregular16">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhitecornerRadius">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="groupStylewhite_3">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="groupStylewhite_2">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="groupStylewhite_4">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtIntermedium10">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/app_color</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylecyan_50cornerRadius">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoromanregular12_2">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtRobotoromanregular12_3">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtRobotoromanregular14_1">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylegreen_800cornerRadius">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoromanregular12_1">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylegray_50">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoromanmedium12">
+        <item name="android:textSize">@dimen/txt_size_md</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStyleblue_100cornerRadius">
+        <item name="android:background">@drawable/round_ract0</item>
+    </style>
+    <style name="txtRobotoitalicthin16">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColor">@color/app_color</item>
+        <item name="android:fontFamily">@font/font2</item>
+        <item name="android:textFontWeight" tools:targetApi="p">100</item>
+    </style>
+    <style name="searchViewSearch" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">@dimen/txt_size_md1</item>
+        <item name="android:textColorPrimary">@color/gry</item>
+        <item name="android:textColorHint">@color/dgry</item>
+    </style>
+</resources>
