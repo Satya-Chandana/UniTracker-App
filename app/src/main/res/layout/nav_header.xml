@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size8"
+    android:onClick="ProNow"
+    android:background="@color/app_color"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/splash_bg"
+        android:tint="@color/app_color"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/app_color"
+        android:alpha=".6"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/margin"
+        android:paddingTop="@dimen/margin1"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="@dimen/margin1"
+        android:paddingBottom="@dimen/margin1"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/imv_rl"
+            android:layout_width="@dimen/size61"
+            android:background="@drawable/circle_shape"
+            android:backgroundTint="@color/lgry"
+            android:layout_height="@dimen/size61">
+
+            <ImageView
+                android:layout_width="@dimen/size3"
+                android:layout_height="@dimen/size3"
+                android:layout_centerVertical="true"
+                android:onClick="ProNow"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/user_icon"
+                app:tint="@color/dgry" />
+
+            <ImageView
+                android:id="@+id/user_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:onClick="ProNow"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_md"
+            android:layout_toRightOf="@id/imv_rl">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font2"
+                android:includeFontPadding="false"
+                android:text="*********"
+                android:textColor="@color/white1"
+                android:textSize="@dimen/txt_size_md1" />
+
+            <TextView
+                android:id="@+id/email_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_name"
+                android:layout_marginTop="@dimen/margin"
+                android:fontFamily="@font/font1"
+                android:text="********"
+                android:includeFontPadding="false"
+                android:textColor="@color/white1"
+                android:textSize="@dimen/txt_size_md" />
+            <TextView
+                android:id="@+id/utype_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email_txt"
+                android:layout_marginTop="@dimen/margin"
+                android:fontFamily="@font/font1"
+                android:text="Student"
+                android:includeFontPadding="false"
+                android:textColor="@color/white1"
+                android:textSize="@dimen/txt_size_md" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/my_tool" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl1"
+            android:layout_marginTop="@dimen/margin_md"
+            android:background="@drawable/round_ract00"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/margin"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:paddingLeft="@dimen/margin">
+
+                <RelativeLayout
+                    android:id="@+id/txt2"
+                    android:layout_width="@dimen/size62"
+                    android:layout_height="@dimen/sizesm1"
+                    android:layout_below="@id/txt1"
+                    android:layout_marginTop="@dimen/margin1"
+                    android:layout_marginRight="@dimen/margin_xlg"
+                    android:background="@drawable/round_ract0"
+                    android:backgroundTint="@color/app_color"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_md"
+                    android:fontFamily="@font/font3"
+                    android:includeFontPadding="false"
+
+                    android:text="@string/sign_up"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_size_xxlg"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_xlg"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt2"
+                    android:hint="@string/full_name"
+                    android:textColorHint="@color/dgry">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font1"
+                        android:includeFontPadding="false"
+                        android:inputType="text"
+                        android:lineSpacingExtra="@dimen/sizesm1"
+                        android:textColor="@color/dgry1"
+                        android:textSize="@dimen/txt_size_md1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/margin1"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt2"
+                    android:hint="@string/email1"
+                    android:textColorHint="@color/dgry">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font1"
+                        android:includeFontPadding="false"
+                        android:inputType="textEmailAddress"
+                        android:lineSpacingExtra="@dimen/sizesm1"
+                        android:textColor="@color/dgry1"
+                        android:textSize="@dimen/txt_size_md1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/margin1"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt2"
+                    android:hint="@string/password"
+                    android:textColorHint="@color/dgry">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font1"
+                        android:includeFontPadding="false"
+                        android:inputType="textPassword"
+                        android:lineSpacingExtra="@dimen/sizesm1"
+                        android:textColor="@color/dgry1"
+                        android:textSize="@dimen/txt_size_md1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/margin1"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt2"
+                    android:hint="@string/roll_no"
+                    android:textColorHint="@color/dgry">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font1"
+                        android:includeFontPadding="false"
+                        android:inputType="text"
+                        android:lineSpacingExtra="@dimen/sizesm1"
+                        android:textColor="@color/dgry1"
+                        android:textSize="@dimen/txt_size_md1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size6"
+                    android:layout_marginTop="@dimen/margin_xxlg"
+                    android:background="@drawable/round_ract1"
+                    android:backgroundTint="@color/app_color"
+                    android:onClick="LoginNow">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+
+                        android:fontFamily="@font/font2"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:onClick="LoginNow"
+                        android:singleLine="true"
+                        android:text="@string/sign_up"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_size_lg" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
